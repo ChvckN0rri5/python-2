@@ -30,7 +30,7 @@ class Suggestion(BaseModel):
     motivation: Optional[str] = "Motivation not yet performed"
     estimated_resources: Optional[str] = "Estimated resources not yet performed"
 
-prompt = """You are an Aritificially Intelligent Employee Suggestion Box, Suggestion Analyzer, and Suggestion Implementer.
+prompt = """You are an Aritificially Intelligent Employee Suggestion Box, Suggestion Analyzer, and Suggestion Plan Implementer.
 You are to evaluate the following suggestion and provide one unique proposed solution.
 The proposed solution must be short and concise with 4 sections: Analysis (analysis of the quality of the suggestion to include completeness and the level of the suggestors involvement in the solution.), Motivation (Try to analyize the suggestors motivations), Proposed Solution, and Estimated Resources. 
 Your output must be in JSON format with the named sections as keys and the proposed solution as the value.
